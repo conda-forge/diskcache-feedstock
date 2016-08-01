@@ -1,7 +1,7 @@
 {%set name = "diskcache" %}
-{%set version = "1.6.7" %}
+{%set version = "1.7.0" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "e0249798ef7e121684bdf9f586d3b4d925eb93edc0da79526474195dcfd8c907" %}
+{%set hash_val = "e7f6881e38a0e943c8259c76d1ba87dd81a875cacf649578f143c1c86d9cb5cb" %}
 
 package:
   name: {{ name }}
