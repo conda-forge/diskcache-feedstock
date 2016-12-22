@@ -11,6 +11,18 @@ Summary: Disk and file backed cache.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/diskcache-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/diskcache-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/diskcache-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/diskcache-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/diskcache-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/diskcache-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/diskcache/badges/version.svg)](https://anaconda.org/conda-forge/diskcache)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/diskcache/badges/downloads.svg)](https://anaconda.org/conda-forge/diskcache)
+
 Installing diskcache
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `diskcache` available on your plat
 ```
 conda search diskcache --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/diskcache-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/diskcache-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/diskcache-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/diskcache-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/diskcache-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/diskcache-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/diskcache/badges/version.svg)](https://anaconda.org/conda-forge/diskcache)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/diskcache/badges/downloads.svg)](https://anaconda.org/conda-forge/diskcache)
 
 
 Updating diskcache-feedstock
