@@ -1,19 +1,21 @@
 {%set name = "diskcache" %}
 {%set version = "2.4.1" %}
+{% set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "dc107694aedd1c213d83a313e358e89b27eca1e548ce1c05dc6453cd8253bec7" %}
+{%set hash = "dc107694aedd1c213d83a313e358e89b27eca1e548ce1c05dc6453cd8253bec7" %}
+{%set build = 0 %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash_val }}
+  fn: {{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  {{ hash_type }}: {{ hash }}
 
 build:
-  number: 0
+  number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -30,8 +32,12 @@ test:
 
 about:
   home: http://www.grantjenks.com/docs/diskcache/
+  license_file: LICENSE
   license: Apache 2.0
+  license_family: Apache
   summary: 'Disk and file backed cache.'
+  dev_url: https://github.com/grantjenks/python-diskcache
+  doc_url: http://www.grantjenks.com/docs/diskcache/
 
 extra:
   recipe-maintainers:
