@@ -14,12 +14,15 @@ Summary: Disk and file backed cache.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/diskcache-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/diskcache-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/diskcache-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/diskcache-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/diskcache/badges/version.svg)](https://anaconda.org/conda-forge/diskcache)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/diskcache/badges/downloads.svg)](https://anaconda.org/conda-forge/diskcache)
+[![Conda Recipe](https://img.shields.io/badge/recipe-diskcache-green.svg)](https://anaconda.org/conda-forge/diskcache)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/diskcache.svg)](https://anaconda.org/conda-forge/diskcache)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/diskcache.svg)](https://anaconda.org/conda-forge/diskcache)
+[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/diskcache.svg)](https://anaconda.org/conda-forge/diskcache)
 
 Installing diskcache
 ====================
