@@ -3,7 +3,6 @@
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "15f0179c612dca07ff98beb4b15e98fc71809f6edd36320213f19ca42724cbf3" %}
-{% set build = 0 %}
 
 package:
   name: {{ name }}
