@@ -1,7 +1,7 @@
 {% set name = "diskcache" %}
-{% set version = "5.0.3" %}
+{% set version = "5.1.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "5f4bc2018d653a1d7bbdcdecce45ea12061bf8d3b5f0323b7a5402054a285c52" %}
+{% set hash = "bc7928df986dbc8a8d6e34c33b0da89d668cfa65e7fcc91298a6959a35076993" %}
 
 package:
   name: {{ name }}
