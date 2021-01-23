@@ -1,7 +1,7 @@
 {% set name = "diskcache" %}
-{% set version = "5.1.0" %}
+{% set version = "5.2.1" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "bc7928df986dbc8a8d6e34c33b0da89d668cfa65e7fcc91298a6959a35076993" %}
+{% set hash = "1805acd5868ac10ad547208951a1190a0ab7bbff4e70f9a07cde4dbdfaa69f64" %}
 
 package:
   name: {{ name }}
@@ -18,7 +18,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
