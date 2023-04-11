@@ -1,5 +1,5 @@
 {% set name = "diskcache" %}
-{% set version = "5.4.0" %}
+{% set version = "5.5.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8879eb8c9b4a2509a5e633d2008634fb2b0b35c2b36192d89655dbde02419644
+  sha256: 8685515584cc110a463d0728d98beaba56c7e2803b60a19cb8983a4c9e341d91
 
 build:
   noarch: python
