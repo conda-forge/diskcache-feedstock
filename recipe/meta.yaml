@@ -8,10 +8,12 @@ package:
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 2c3a3fa2743d8535d832ec61c2054a1641f41775aa7c556758a109941e33e4fc
+  patches:
+    - 0000-sql-dqs-off.patch
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
